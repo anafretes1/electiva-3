@@ -159,7 +159,8 @@ body {
 }
 
 .cv .cv_right .cv_labo ul,
-.cv .cv_right .cv_educacion ul {
+.cv .cv_right .cv_educacion ul,
+.cv .cv_right .cv_referencia ul {
   padding-left: 40px;
   overflow: hidden;
 }
@@ -183,7 +184,8 @@ body {
 }
 
 .cv .cv_right .cv_labo ul li:before,
-.cv .cv_right .cv_educacion ul li:before {
+.cv .cv_right .cv_educacion ul li:before,
+.cv .cv_right .cv_referencia ul li:before {
   content: "";
   position: absolute;
   top: 5px;
@@ -195,7 +197,8 @@ body {
 }
 
 .cv .cv_right .cv_labo ul li:after,
-.cv .cv_right .cv_educacion ul li:after {
+.cv .cv_right .cv_educacion ul li:after,
+.cv .cv_right .cv_referencia ul li:after {
   content: "";
   position: absolute;
   top: 14px;
